@@ -1,0 +1,33 @@
+Object Oriented
+
+class Math {
+    private int a;
+    private int b;
+
+    void add() {
+        System.out.println(a + b);
+    }
+}
+
+class Multiply extends Math {
+    private int a;
+    private int b;
+
+    void mul() {
+        System.out.println(a * b);
+    }
+}
+
+public class Maths {
+    public static void main(String[] args) {
+        Multiply s = new Multiply();
+        s.a = 10; // Assign values to the 'a' and 'b' variables in the Multiply class
+        s.b = 5;
+        s.add();
+        s.mul();
+    }
+}
+
+OUTPUT:
+15
+50
