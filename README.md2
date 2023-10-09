@@ -1,0 +1,16 @@
+Ternary operator
+
+public class TernaryOperator {
+    public static void main(String[] args) {
+        int x, y;
+        x = 20;
+
+        // If x is equal to 1, assign 61 to y; otherwise, assign 90 to y.
+        y = (x == 1) ? 61 : 90;
+        System.out.println("Value of y is: " + y);
+
+        // If x is equal to 20, assign 61 to y; otherwise, assign 90 to y.
+        y = (x == 20) ? 61 : 90;
+        System.out.println("Value of y is: " + y);
+    }
+}
